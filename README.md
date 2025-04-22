@@ -171,7 +171,7 @@ Authorization: Bearer <token>
 
 ### 📅 Jadwal
 
-#### **5. POST /api/schedules/doctor/schedule**
+#### **5. POST /api/schedules/**
 
 **Deskripsi:** Menambahkan jadwal dokter berdasarkan tanggal rentang dan hari.
 
@@ -191,7 +191,7 @@ Authorization: Bearer <token>
 
 ---
 
-#### **6. GET /api/schedules/doctor/:doctorId/schedules**
+#### **6. GET /api/schedules/:doctorId/**
 
 **Deskripsi:** Menampilkan semua jadwal untuk seorang dokter.
 
