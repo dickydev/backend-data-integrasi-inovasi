@@ -6,7 +6,7 @@ import {
 
 const router = express.Router();
 
-router.post("/doctor/schedule", addDoctorSchedule);
-router.get("/doctor/:doctorId/schedules", getDoctorSchedules);
+router.post("/", addDoctorSchedule);
+router.get("/:doctorId/", getDoctorSchedules);
 
 export default router;
